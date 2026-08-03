@@ -34,8 +34,6 @@ Cleaner than scripting the CLI by hand: no `brew install`, no manual download.
 - Get a token at **Project → Settings → Access Tokens** in the [Qualflare dashboard](https://app.qualflare.com), and store it as a GitHub secret named `QUALFLARE_TOKEN`.
 - Wraps the [`qualflare-cli`](https://github.com/Qualflare/qualflare-cli) (`qf`) — see its docs for advanced usage.
 
-## Publishing (for maintainers)
-1. Put this `action.yml` + `README.md` at the **root** of a new public repo, e.g. `Qualflare/qualflare-action`.
-2. Tag a release: `v1.0.0`, and move a floating `v1` tag to it (so users can pin `@v1`).
-3. On the GitHub Release page, check **"Publish this Action to the GitHub Marketplace"** → category **Continuous Integration**. Set the repo homepage to `https://qualflare.com`.
-4. Result: a Marketplace listing (backlink + discovery) and a first-class `uses: Qualflare/qualflare-action@v1` DX.
+## License
+
+MIT — see [LICENSE](LICENSE).
