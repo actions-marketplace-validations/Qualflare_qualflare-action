@@ -1,5 +1,5 @@
 name: 'Qualflare — Upload Test Results'
-description: 'Upload CI test results to Qualflare for AI failure analysis, history-based flaky-test detection, and release-risk scoring. 23 frameworks, auto-detected.'
+description: 'Upload CI test results to Qualflare: AI failure analysis, flaky-test detection & release-risk scoring, 23 frameworks.'
 author: 'Qualflare'
 branding:
   icon: 'check-circle'
